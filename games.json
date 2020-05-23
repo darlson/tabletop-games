@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Dominion",
+        "players": "2-4",
+        "description": "deckbuilding, Eurogame, 30 min",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71gRRFM0daL._AC_SX425_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "7 Wonders",
+        "players": "2-7",
+        "description": "card drafting, civilization building, Eurogame, 30-45 min",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/7_wonders_board_game_cover.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Carcassonne",
+        "players": "2-6",
+        "description": "tiles, worker placement, Eurogame, 30 min",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Carcassonne-game.jpg/220px-Carcassonne-game.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bang!",
+        "players": "2-7",
+        "description": "hidden roles, western, strategy, 30 min",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/7b/Bang_box_art.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Quiddler",
+        "players": "2-8",
+        "description": "cards, words, 30 min",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Z5MshDwWL._AC_.jpg"
+    }
+]
