@@ -6,6 +6,8 @@ function Games (props) {
         <div>
             <p>Games.js</p>
             <Game />
+            <Game />
+            
         </div>
     )
 }
