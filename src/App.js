@@ -15,12 +15,17 @@ class App extends Component {
       img: '',
     }
 
+    // this.componentDidMount = this.componentDidMount.bind(this)
+    this.addGame = this.addGame.bind(this)
+    this.saveInfo = this.saveInfo.bind(this)
+    this.deleteGame = this.deleteGame.bind(this)
+    this.handleChange = this.handleChange.bind(this)
   }
   componentDidMount() {
 
   }
-  addGame() {
-
+  addGame(userInput) {
+    console.log("hi Mom")
   }
   saveInfo() {
 
@@ -37,8 +42,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <AddGame />
-        <Games />
+        <AddGame addGame={this.addGame} />
+        {/* <Games /> */}
       </div>
     );
   }
