@@ -14,7 +14,8 @@ module.exports = {
     },
     saveInfo: (req, res) => {
         const {game_id} = req.params
-        const {name, players, description, image} = req.body
+        const {newName, newPlayers, newDescription, newImage} = req.body
+        console.log(req.params, req.body);
         const index = games.findIndex(e=> e.id === +game_id)
 
         if (index === -1){
@@ -22,10 +23,10 @@ module.exports = {
         }
         games[index] = {
             id: +game_id,
-            name: name || games[index].name,
-            players: players || games[index].players,
-            description: description || games[index].description,
-            image: image || games[index].image
+            name: newName || games[index].name,
+            players: newPlayers || games[index].players,
+            description: newDescription || games[index].description,
+            image: newImage || games[index].image
         }
         res.status(200).send(games)
     },

@@ -12,4 +12,4 @@ app.delete('/api/games/:game_id', ctrl.deleteGame)
 
 
 
-app.listen(SERVER_PORT, () => console.log(`Server running on port ${SERVER_PORT}`))
+app.listen(SERVER_PORT, () => console.log(`Setting up the games and snacks at port ${SERVER_PORT}`))

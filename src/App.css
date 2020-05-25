@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   height: 6vh;
@@ -31,4 +20,23 @@ button {
   border-style: none;
   background-color: darkblue;
   color: white;
+}
+
+img {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.game-card {
+  height: 400px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.desc-box {
+  height: 150px;
+  width: 190px;
+  font-size: 82%;
+  overflow-y: scroll;
 }
