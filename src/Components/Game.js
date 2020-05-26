@@ -33,7 +33,7 @@ class Game extends Component {
         return (
             <div className="game-card">
                 <img src={this.props.data.image} alt={this.props.data.name} />
-                <h5>{this.props.data.name}</h5>
+                <h4>{this.props.data.name}</h4>
                 <p>{this.props.data.players} players</p>
                 
                 <p className="desc-box">{this.props.data.description}</p>

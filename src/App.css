@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.5)), url('http://norvig.com/carcassonne_borman.jpg');
+  background-size: cover;
+  minimum-height: 100vh;
+  height: 100vh;
 }
 
 .App-header {
@@ -12,6 +16,11 @@
   justify-content: center;
   font-size: calc(10px + 1vmin);
   color: white;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-right: 5px;
 }
 
 button {
@@ -25,18 +34,35 @@ button {
 img {
   max-height: 120px;
   max-width: 120px;
+  
 }
 
 .game-card {
-  height: 400px;
+  height: 320px;
   width: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 10px 5px;
+  background: white;
+  margin: 10px;
+  font-size: 12px;
+  border-radius: 15px;
+
 }
 .desc-box {
-  height: 150px;
-  width: 190px;
-  font-size: 82%;
+  height: 170px;
+  width: 170px;
+  font-size: 90%;
   overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
 }
