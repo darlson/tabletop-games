@@ -26,3 +26,8 @@
     - **AddGames.js** (stateful: axios POST request at top to add user-inputted data to the JSON)
     - **Games.js** (functional: passing down props and mapping over the Game.js component to show our list of games)
         - **Game.js** (stateful: this.state.desc, this.state.players, this.state.img, this.state.isEditing)
+
+### Diagrams
+
+<img src="./component-tree-plan.png">
+<img src="./wireframe.png">
