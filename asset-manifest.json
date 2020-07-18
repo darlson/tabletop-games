@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tabletop-games/static/css/main.2a47d261.chunk.css",
+    "main.js": "/tabletop-games/static/js/main.d65e4136.chunk.js",
+    "main.js.map": "/tabletop-games/static/js/main.d65e4136.chunk.js.map",
+    "runtime-main.js": "/tabletop-games/static/js/runtime-main.61e45bee.js",
+    "runtime-main.js.map": "/tabletop-games/static/js/runtime-main.61e45bee.js.map",
+    "static/js/2.09279fe4.chunk.js": "/tabletop-games/static/js/2.09279fe4.chunk.js",
+    "static/js/2.09279fe4.chunk.js.map": "/tabletop-games/static/js/2.09279fe4.chunk.js.map",
+    "index.html": "/tabletop-games/index.html",
+    "precache-manifest.79f40a4e90d27988bf2210730981746b.js": "/tabletop-games/precache-manifest.79f40a4e90d27988bf2210730981746b.js",
+    "service-worker.js": "/tabletop-games/service-worker.js",
+    "static/css/main.2a47d261.chunk.css.map": "/tabletop-games/static/css/main.2a47d261.chunk.css.map",
+    "static/js/2.09279fe4.chunk.js.LICENSE.txt": "/tabletop-games/static/js/2.09279fe4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61e45bee.js",
+    "static/js/2.09279fe4.chunk.js",
+    "static/css/main.2a47d261.chunk.css",
+    "static/js/main.d65e4136.chunk.js"
+  ]
+}
